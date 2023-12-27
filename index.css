@@ -1,0 +1,11 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-smooth: always; /* Para navegadores WebKit (Chrome, Safari) */
+  -webkit-font-smoothing: antialiased; /* Também para navegadores WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Para navegadores Firefox no MacOS */
+}

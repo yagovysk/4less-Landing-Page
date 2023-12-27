@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.instagram-button {
+  position: fixed;
+  display: flex;
+  bottom: 175px;
+  right: 44px;
+  color: #fff; /* Cor branca do ícone */
+  padding: 1.1rem 1.3rem;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.insta-icon {
+  text-decoration: none;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+}
+.whatsapp-button {
+  position: fixed;
+  display: flex;
+  bottom: 100px;
+  right: 47px;
+  background-color: #25d366; /* Cor verde do WhatsApp */
+  color: #fff; /* Cor branca do ícone */
+  padding: 1rem 1.2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+.whats-icon {
+  text-decoration: none;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .instagram-button {
+    padding: 0.4rem 0.5rem !important;
+    right: 10px !important;
+  }
+  .insta-icon {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+  .whatsapp-button {
+    padding: 0.5rem !important;
+    right: 11px !important;
+    bottom: 120px !important;
+  }
+  .whats-icon {
+    width: 1.5rem !important;
+    height: 1.3rem !important;
+  }
+}
