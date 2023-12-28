@@ -51,29 +51,6 @@
   line-height: 2.2rem;
   width: 50%;
 }
-.container-button-home {
-  display: flex;
-  justify-content: center;
-  padding: 2.5rem 0;
-  z-index: 1;
-}
-.container-button-home a {
-  text-decoration: none;
-  background: rgb(8, 46, 17);
-  color: #fff;
-  border: solid #fff;
-  transition: 0.4s ease;
-  padding: 1.5rem 2rem;
-  font-family: 'Lora', serif;
-  font-size: 1.5rem;
-  border-radius: 20px;
-  font-weight: 500;
-}
-.container-button-home a:hover {
-  background: rgb(42, 197, 75);
-  color: #fff;
-  transform: scale(1.05);
-}
 .icon-left {
   color: #fff;
   width: 3rem;
@@ -122,7 +99,8 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.3rem;
   font-size: 1.6rem;
-  width: 60%;
+  width: 70%;
+  text-align: left;
 }
 @media screen and (max-width: 768px) {
   .carousel {
@@ -134,7 +112,7 @@
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
-    padding: 0.5rem 0;
+    padding: 2rem 0;
     z-index: 1;
   }
   .container-texts h1 {
@@ -162,18 +140,6 @@
     display: flex;
     justify-content: center;
     padding: 0;
-  }
-  .container-button-home a {
-    text-decoration: none;
-    background: rgb(8, 46, 17);
-    color: #fff;
-    border: solid #fff;
-    transition: 0.4s ease;
-    padding: 0.6rem 1.5rem;
-    font-family: 'Lora', serif;
-    font-size: 0.8rem;
-    border-radius: 20px;
-    font-weight: 500;
   }
   .container-texts2 {
     position: absolute;
@@ -212,10 +178,28 @@
     border-radius: 20px;
     font-weight: 500;
   }
+  .container-carousel3 .container-texts h1 {
+    font-size: 1.2rem !important;
+  }
+  .container-carousel3 .container-texts h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem !important;
+    font-size: 1rem !important;
+    font-weight: 400;
+  }
+  .container-carousel3 .container-texts {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
 }
 .container-carousel3 {
   display: flex;
   justify-content: center;
+}
+.container-carousel3 .container-texts {
+  padding: 1rem 0;
 }
 .container-carousel3 h1 {
   z-index: 1;
@@ -252,4 +236,10 @@
   background: rgb(42, 197, 75);
   color: #fff;
   transform: scale(1.05);
+}
+.container-carousel3 .container-texts h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 400;
 }

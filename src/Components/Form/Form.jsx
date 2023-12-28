@@ -43,7 +43,7 @@ export function Form() {
 
     emailjs
       .send(
-        'service_3456foq',
+        'service_l3fyslg',
         'template_xsx9cqn',
         templateParams,
         'SUZU9vVRBJw2egOzD',
@@ -78,9 +78,9 @@ export function Form() {
         <h1>Contato</h1>
         <p>
           Iniciamos cada projeto com uma simples conversa, conhecendo você e
-          suas necessidades de negócios. Em seguida, criamos um plano de
-          trabalho personalizado para tornar realidade suas necessidades e
-          evisão de sustentabilidade.
+          suas necessidades de negócio. Em seguida, criamos um plano de trabalho
+          personalizado para tornar realidade suas necessidades e visão de
+          sustentabilidade.
         </p>
       </article>
       <form onSubmit={sendEmail}>

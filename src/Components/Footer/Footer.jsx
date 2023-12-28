@@ -4,7 +4,7 @@ import './Footer.css';
 export function Footer() {
   return (
     <footer className="container-footer">
-      <h1>© Todos os direitos reservados a 4less Carbon</h1>
+      <h1>© Todos os direitos reservados a 4Less Carbon</h1>
       <h2>
         © Developed by{' '}
         <a href="https://togyrogroupvictory.com/" target="blank">

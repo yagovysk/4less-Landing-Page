@@ -76,10 +76,12 @@ export function Our() {
             alt="Imagem 2 do carousel, um planeta verde com muitas árvores"
           />
           <p>
-            Medimos e compensamos os impactos climáticos de eventos
-            corporativos, conferências e shows. Trabalhe conosco para reduzir a
-            pegada de carbono, contar a história de um evento de baixo carbono e
-            obter benefícios como valorização da imagem corporativa.
+            Um evento é neutro em carbono quando as emissões de gases de efeito
+            estufa (GEE) provenientes das ações pré evento, durante o evento e
+            pós evento são devidamente quantificadas e uma ação de compensação
+            ambiental (neutralização) é realizada na mesma proporção. Trabalhe
+            conosco e demonstre sua consciencia sobre a mudança do clima e a
+            sustentabilidade, além de aumentar sua chance de captar patrocínio.
           </p>
         </div>
         <div className="container-our-carousel3">
