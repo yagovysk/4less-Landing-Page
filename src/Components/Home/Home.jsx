@@ -61,6 +61,10 @@ export function Home() {
               organizações na transição para uma economia de baixa emissão de
               carbono.
             </h2>
+            <h2>
+              Somos especialistas em mercado de carbono e movidos por um
+              propósito comum, proteger nosso planeta.
+            </h2>
           </article>
         </div>
         <div className="container-carousel2">

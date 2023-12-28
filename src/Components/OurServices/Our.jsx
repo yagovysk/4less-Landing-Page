@@ -76,10 +76,9 @@ export function Our() {
             alt="Imagem 2 do carousel, um planeta verde com muitas árvores"
           />
           <p>
-            Um evento é neutro em carbono quando as emissões de gases de efeito
-            estufa (GEE) provenientes das ações pré evento, durante o evento e
-            pós evento são devidamente quantificadas e uma ação de compensação
-            ambiental (neutralização) é realizada na mesma proporção. Trabalhe
+            Um evento é neutro em carbono quando as emissões de GEE provenientes
+            das ações de um evento são devidamente quantificadas e uma ação de
+            compensação ambiental é realizada na mesma proporção. Trabalhe
             conosco e demonstre sua consciencia sobre a mudança do clima e a
             sustentabilidade, além de aumentar sua chance de captar patrocínio.
           </p>
